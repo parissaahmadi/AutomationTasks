@@ -1,10 +1,10 @@
-optimize. compress your MP3 files. 
+# optimize. compress your MP3 files. 
 This Python code takes the input and output paths, then compresses the .mp3 files in the input folder to a frame rate of 32000 Hz and places the compressed .mp3 file in the output folder. 
 (The files that cannot be converted for some reason are copied exactly to the output folder) and finally it displays the amount of reduced volume.
 
 
-Usage:
-A- install requirements packages:
+## Usage:
+### A- install requirements packages:
 1. pydub
 $ pip install pydu
 
@@ -29,10 +29,12 @@ These commands install Chocolatey (a package manager for Windows) and then insta
 """
 
 
-B- download mp3_optimizer.py and edit these lines code: (Determining the path of the input and output folders)
+### B- download mp3_optimizer.py and edit these lines code: (Determining the path of the input and output folders)
 input_directory = 'X:/your-music-folder-path'
 output_directory = 'X:/your-compressed-folder-path' #The path of the folder where you want the compressed music to be placed.
 
-C- run it
+#For more compression, change all frame rate numbers from 32000 to 11025. (The quality will decrease slightly)
+
+### C- run it
 
 
